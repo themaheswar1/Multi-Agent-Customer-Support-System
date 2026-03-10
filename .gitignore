@@ -1,7 +1,6 @@
 
 masenv/
 
-vectorstore/
 
 .env
 
@@ -9,9 +8,6 @@ __pycache__/
 
 *.pyc
 
-*.pkl
-
-*.faiss
 
 knowledge_base/
 
