@@ -295,6 +295,20 @@ if prompt := st.chat_input("Type your question here..."):
         "citations": citations,
     })
 
+    # track to MLflow
+    from eval import track_conversation
+    track_conversation(
+        query          = prompt,
+        intent         = result.get("intent", "unknown"),
+        sentiment      = sentiment,
+        agent          = agent,
+        response       = response,
+        response_time  = result.get("response_time", 0.0),
+        chunks_retrieved = len(result.get("chunks", [])),
+        escalated      = result.get("escalated", False),
+        ticket         = result.get("ticket", ""),
+    )
+
     # update active agent — sidebar highlights this
     st.session_state.active_agent = agent
 
