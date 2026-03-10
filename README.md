@@ -20,9 +20,33 @@ Not a single chatbot. Four agents working together.
 
 ## Live Demo
 
-> 🚀 **[Launch App →](https://your-deployment-link.streamlit.app)**
+> Try the App Here:  https://multi-agent-customer-support-system-mahesh.streamlit.app/
+
+Please follow or copy & paste link your browser and Wake up the App if it is sleeping !!
 
 ---
+
+## Visual Demo
+Knowledge Agent in force:
+
+<img width="1919" height="935" alt="Screenshot 2026-03-10 191741" src="https://github.com/user-attachments/assets/ae0e47c3-3ab8-4a39-8db6-13adc7197fed" />
+
+
+Action Agent in force:
+
+<img width="1911" height="941" alt="Screenshot 2026-03-10 191708" src="https://github.com/user-attachments/assets/ef7417f8-d56a-49fd-a6f8-d584bbd6a2f8" />
+
+
+Escalation Agent in force:
+
+<img width="1903" height="948" alt="Screenshot 2026-03-10 191635" src="https://github.com/user-attachments/assets/2f918c18-fdcd-4954-9268-287b77343b06" />
+
+Metrics:
+
+<img width="1858" height="921" alt="Screenshot 2026-03-10 105333" src="https://github.com/user-attachments/assets/200ebdc0-ab67-43c0-9e3b-9888fa4c1cde" />
+<img width="1861" height="930" alt="Screenshot 2026-03-10 105045" src="https://github.com/user-attachments/assets/22c76da7-7909-4c55-9904-41f10b0dd875" />
+
+<img width="1864" height="968" alt="Screenshot 2026-03-10 105017" src="https://github.com/user-attachments/assets/5ea1a14b-2b31-43c5-a9fa-47f8292374e8" />
 
 ## How It Works
 
