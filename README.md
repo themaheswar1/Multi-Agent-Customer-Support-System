@@ -130,7 +130,7 @@ Multi-Agent-Customer-Support-System/
 │   ├── *.csv               # 6 data files
 │   └── *.txt               # 3 guideline files
 │
-├── vectorstore/            # FAISS index (gitignored)
+├── vectorstore/            # FAISS index(committed for deployement);Can also be wired ingestion with app.py for fresh vectorstore
 │   ├── index.faiss
 │   └── metadata.pkl
 │
@@ -270,7 +270,7 @@ mlflow ui
 ## Roadmap
 
 - [ ] Add response time tracking per agent in app.py
-- [ ] Deploy to Streamlit Cloud
+- [x] Deploy to Streamlit Cloud (Done)
 - [ ] Add order number validation in Action Agent
 - [ ] Add multi-language support
 - [ ] Add conversation export feature
