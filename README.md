@@ -12,7 +12,7 @@
 
 ## What This Is
 
-A production-grade multi-agent AI system that handles customer support for ShopSmart e-commerce. Every customer message is classified by intent and sentiment, then routed to the right specialized agent — automatically.
+A production-grade multi-agent AI system that handles customer support for ShopSmart e-commerce. Every customer message is classified by intent and sentiment, then routed(by router Agent) to the right specialized agent — automatically. The specialized agent(knowledge)then takes step with knowledge chat, Action needed by Customer(Action agent), Escalating concern of customer(Escalation agent).
 
 Not a single chatbot. Four agents working together.
 
